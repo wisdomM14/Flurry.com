@@ -1,0 +1,4962 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flurva - Discover Everything You Need, All in One Place</title>
+  <meta content="Shop the Best Deals on Thousands of Products" name="keywords">
+  <meta content="From Essentials to Exclusives!!" name="description">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link 
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - MODAL
+  -->
+
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+
+            <p class="newsletter-desc">
+              Subscribe to <b>Flurva</b> to get notified on latest products and discount update.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Subscribe</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - NOTIFICATION TOAST
+  -->
+
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./assets/images/products/shoe-1_1.jpg" alt="Rose Gold Earrings" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Someone in new just bought
+      </p>
+
+      <p class="toast-title">
+        Shoe
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M">5 Minutes</time> ago
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <div class="header-alert-news">
+          <p>
+            <b>Free Shipping - </b>
+            This Week Order Over - $1000
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="language">
+
+            <option value="en-US">English</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="index.html" class="header-logo">
+          <img src="./assets/images/logo/logo.jpg" alt="Flurva's logo" width="170" height="100">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+            <a href="index.html"><button class="action-btn">
+                <ion-icon name="home-outline"></ion-icon>
+            </button></a>
+
+          <a href="#"><button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button></a>
+
+
+          <a href="#"><button class="action-btn">
+            <ion-icon name="cart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button></a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <!--<li class="menu-category">
+            <a href="index.html" class="menu-title">Home</a>
+          </li>-->
+
+          <!--<li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Electronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Desktop</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Laptop</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Camera</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Tablet</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Headphone</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Men's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Sports</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Jacket</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Sunglasses</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/mens-banner.jpg" alt="men's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Women's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Perfume</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Cosmetics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Bags</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/womens-banner.jpg" alt="women's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Electronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Smart Watch</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Smart TV</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Keyboard</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Mouse</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Microphone</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>-->
+
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      
+      <a href="#"><button class="action-btn">
+        <ion-icon name="cart-outline"></ion-icon>
+        <span class="count">0</span>
+      </button></a>
+
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+
+      <a href="index.html"><button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button></a>
+
+
+      <!--<button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>-->
+
+    </div>
+
+
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+            <a href="index.html" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Account</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Categories</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="general.html" class="submenu-title">General</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="fashion.html" class="submenu-title">Fashion</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="techgadgets.html" class="submenu-title">Tech Gadgets</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="cosmetics.html" class="submenu-title">Cosmetics & Skincare</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Track Order</a>
+        </li>
+
+       <!--<li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Category</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Electronics</a>
+            </li>
+
+          </ul>
+
+        </li>-->
+
+
+        <!--<li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Jewelry</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Couple Rings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Bracelets</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Perfume</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Clothes Perfume</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Deodorant</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Flower Fragrance</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Air Freshener</a>
+            </li>
+
+          </ul>
+
+        </li>-->
+
+
+        <!--<li class="menu-category">
+          <a href="#" class="menu-title">Blog</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Hot Offers</a>
+        </li>-->
+
+        <li class="menu-category">
+            <a href="#" class="menu-title">Report A Product</a>
+        </li>
+
+        <li class="menu-category">
+            <a href="#" class="menu-title">Help</a>
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+        <div class="container">
+  
+          <div class="slider-container has-scrollbar">
+  
+            <div class="slider-item">
+  
+              <img src="./assets/images/banner-2.jpg" alt="women's latest fashion sale" class="banner-img">
+  
+              <div class="banner-content">
+  
+                <p class="banner-subtitle">Trending item</p>
+  
+                <h2 class="banner-title">Women's latest fashion sale</h2>
+  
+                <p class="banner-text">
+                  starting at &dollar; <b>20</b>.00
+                </p>
+  
+                <a href="#" class="banner-btn">Order Now</a>
+  
+              </div>
+  
+            </div>
+  
+            <div class="slider-item">
+  
+              <img src="./assets/images/banner-1.jpg" alt="modern sunglasses" class="banner-img">
+  
+              <div class="banner-content">
+  
+                <p class="banner-subtitle">Trending accessories</p>
+  
+                <h2 class="banner-title">Modern sunglasses</h2>
+  
+                <p class="banner-text">
+                  starting at &dollar; <b>15</b>.00
+                </p>
+  
+                <a href="#" class="banner-btn">Order Now</a>
+  
+              </div>
+  
+            </div>
+  
+            <div class="slider-item">
+  
+              <img src="./assets/images/banner-3.jpg" alt="new fashion summer sale" class="banner-img">
+  
+              <div class="banner-content">
+  
+                <p class="banner-subtitle">Sale Offer</p>
+  
+                <h2 class="banner-title">New fashion summer sale</h2>
+  
+                <p class="banner-text">
+                  starting at &dollar; <b>29</b>.99
+                </p>
+  
+                <a href="#" class="banner-btn">Order Now</a>
+  
+              </div>
+  
+            </div>
+  
+            <div class="slider-item">
+  
+              <img src="./assets/images/banner-2.jpg" alt="modern sunglasses" class="banner-img">
+  
+              <div class="banner-content">
+  
+                <p class="banner-subtitle">Trending accessories</p>
+  
+                <h2 class="banner-title">Modern sunglasses</h2>
+  
+                <p class="banner-text">
+                  starting at &dollar; <b>15</b>.00
+                </p>
+  
+                <a href="#" class="banner-btn">Order Now</a>
+  
+              </div>
+  
+            </div>
+  
+            <div class="slider-item">
+  
+              <img src="./assets/images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img">
+  
+              <div class="banner-content">
+  
+                <p class="banner-subtitle">Trending item</p>
+  
+                <h2 class="banner-title">Women's latest fashion sale</h2>
+  
+                <p class="banner-text">
+                  starting at &dollar; <b>20</b>.00
+                </p>
+  
+                <a href="#" class="banner-btn">Order Now</a>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+    </div>
+
+
+
+
+
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+
+        <!--
+          - SIDEBAR
+        -->
+
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+
+            <div class="sidebar-category">
+
+                <div class="sidebar-top">
+                  <h2 class="sidebar-title">Categories</h2>
+    
+                  <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                    <ion-icon name="close-outline"></ion-icon>
+                  </button>
+                </div>
+    
+                <ul class="sidebar-menu-category-list">
+    
+                 <li class="sidebar-menu-category">
+    
+                        <a href="general.html"><button class="sidebar-accordion-menu" data-accordion-btn>
+        
+                          <div class="menu-title-flex">
+        
+                            <p class="menu-title">General</p>
+                          </div>
+        
+                        </button></a>
+        
+                 </li>
+    
+    
+                  <li class="sidebar-menu-category">
+    
+                    <a href="cosmetics.html"><button class="sidebar-accordion-menu" data-accordion-btn>
+    
+                      <div class="menu-title-flex">
+    
+                        <p class="menu-title">Cosmetics / Skincare</p>
+                      </div>
+    
+                    </button></a>
+
+                  </li>
+    
+                  
+                  <li class="sidebar-menu-category">
+    
+                    <a href="electronics.html"><button class="sidebar-accordion-menu" data-accordion-btn>
+    
+                      <div class="menu-title-flex">
+    
+                        <p class="menu-title">Electronics</p>
+                      </div>
+    
+                    </button></a>
+    
+                  </li>
+    
+    
+                  <li class="sidebar-menu-category">
+    
+                    <a href="fashion.html"><button class="sidebar-accordion-menu" data-accordion-btn>
+    
+                      <div class="menu-title-flex">
+    
+                        <p class="menu-title">Fashion</p>
+                      </div>
+    
+                    </button></a>
+    
+                  </li>
+    
+    
+                  <li class="sidebar-menu-category">
+    
+                    <a href="techgadgets.html"><button class="sidebar-accordion-menu" data-accordion-btn>
+    
+                      <div class="menu-title-flex">
+    
+                        <p class="menu-title">Tech Gadgets</p>
+                      </div></a>
+    
+                    </button></a>
+    
+                  </li>
+    
+    
+                </ul>
+    
+            </div>
+  
+  
+            
+            <div class="product-showcase" id="best-sales">
+  
+              <h3 class="showcase-heading">Best Sellers</h3>
+  
+              <div class="showcase-wrapper">
+  
+                <div class="showcase-container">
+  
+                  <div class="showcase">
+  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/1.jpg" alt="baby fabric shoes" width="75" height="75"
+                        class="showcase-img">
+                    </a>
+  
+                    <div class="showcase-content">
+  
+                      <a href="#">
+                        <h4 class="showcase-title">baby fabric shoes</h4>
+                      </a>
+  
+                      <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <div class="price-box">
+                        <p class="price">$32.89</p>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                  <div class="showcase">
+  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/2.jpg" alt="men's hoodies t-shirt" class="showcase-img"
+                        width="75" height="75">
+                    </a>
+  
+                    <div class="showcase-content">
+  
+                      <a href="#">
+                        <h4 class="showcase-title">men's hoodies t-shirt</h4>
+                      </a>
+                      <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <div class="price-box">
+                        <p class="price">$20.85</p>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                  <div class="showcase">
+  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/3.jpg" alt="girls t-shirt" class="showcase-img" width="75"
+                        height="75">
+                    </a>
+  
+                    <div class="showcase-content">
+  
+                      <a href="#">
+                        <h4 class="showcase-title">girls t-shirt</h4>
+                      </a>
+                      <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <div class="price-box">
+                        <p class="price">$10.00</p>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                  <div class="showcase">
+  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/4.jpg" alt="woolen hat for men" class="showcase-img" width="75"
+                        height="75">
+                    </a>
+  
+                    <div class="showcase-content">
+  
+                      <a href="#">
+                        <h4 class="showcase-title">woolen hat for men</h4>
+                      </a>
+                      <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <div class="price-box">
+                        <p class="price">$15.99</p>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+  
+  
+        </div>
+
+
+
+        <div class="product-box">
+
+          <!--
+            - PRODUCT MINIMAL
+          -->
+
+          <div class="product-minimal">
+
+            <div class="product-showcase">
+
+              <h2 class="title">Computing</h2>
+
+              <div class="showcase-wrapper has-scrollbar">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/clothes-1.jpg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Relaxed Short full Sleeve T-Shirt</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Clothes</a>
+
+                      <div class="price-box">
+                        <p class="price">$45.00</p>
+                        <del>$12.00</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/clothes-2.jpg" alt="girls pink embro design top" class="showcase-img" width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Girls pnk Embro design Top</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Clothes</a>
+                  
+                      <div class="price-box">
+                        <p class="price">$61.00</p>
+                        <del>$9.00</del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/clothes-3.jpg" alt="black floral wrap midi skirt" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Black Floral Wrap Midi Skirt</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Clothes</a>
+                  
+                      <div class="price-box">
+                        <p class="price">$76.00</p>
+                        <del>$25.00</del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/shirt-1.jpg" alt="pure garment dyed cotton shirt" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Pure Garment Dyed Cotton Shirt</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Mens Fashion</a>
+                  
+                      <div class="price-box">
+                        <p class="price">$68.00</p>
+                        <del>$31.00</del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                </div>
+
+                <div class="showcase-container">
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/jacket-5.jpg" alt="men yarn fleece full-zip jacket" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">MEN Yarn Fleece Full-Zip Jacket</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Winter wear</a>
+                
+                      <div class="price-box">
+                        <p class="price">$61.00</p>
+                        <del>$11.00</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/jacket-1.jpg" alt="mens winter leathers jackets" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Mens Winter Leathers Jackets</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Winter wear</a>
+                
+                      <div class="price-box">
+                        <p class="price">$32.00</p>
+                        <del>$20.00</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/jacket-3.jpg" alt="mens winter leathers jackets" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Mens Winter Leathers Jackets</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Jackets</a>
+                
+                      <div class="price-box">
+                        <p class="price">$50.00</p>
+                        <del>$25.00</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/shorts-1.jpg" alt="better basics french terry sweatshorts" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Better Basics French Terry Sweatshorts</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Shorts</a>
+                
+                      <div class="price-box">
+                        <p class="price">$20.00</p>
+                        <del>$10.00</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                </div>
+
+                <div class="showcase-container">
+
+                    <div class="showcase">
+  
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/clothes-1.jpg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                      </a>
+  
+                      <div class="showcase-content">
+  
+                        <a href="#">
+                          <h4 class="showcase-title">Relaxed Short full Sleeve T-Shirt</h4>
+                        </a>
+  
+                        <a href="#" class="showcase-category">Clothes</a>
+  
+                        <div class="price-box">
+                          <p class="price">$45.00</p>
+                          <del>$12.00</del>
+                        </div>
+  
+                      </div>
+  
+                    </div>
+  
+                    <div class="showcase">
+                    
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/clothes-2.jpg" alt="girls pink embro design top" class="showcase-img" width="70">
+                      </a>
+                    
+                      <div class="showcase-content">
+                    
+                        <a href="#">
+                          <h4 class="showcase-title">Girls pnk Embro design Top</h4>
+                        </a>
+                    
+                        <a href="#" class="showcase-category">Clothes</a>
+                    
+                        <div class="price-box">
+                          <p class="price">$61.00</p>
+                          <del>$9.00</del>
+                        </div>
+                    
+                      </div>
+                    
+                    </div>
+  
+                    <div class="showcase">
+                    
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/clothes-3.jpg" alt="black floral wrap midi skirt" class="showcase-img"
+                          width="70">
+                      </a>
+                    
+                      <div class="showcase-content">
+                    
+                        <a href="#">
+                          <h4 class="showcase-title">Black Floral Wrap Midi Skirt</h4>
+                        </a>
+                    
+                        <a href="#" class="showcase-category">Clothes</a>
+                    
+                        <div class="price-box">
+                          <p class="price">$76.00</p>
+                          <del>$25.00</del>
+                        </div>
+                    
+                      </div>
+                    
+                    </div>
+  
+                    <div class="showcase">
+                    
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/shirt-1.jpg" alt="pure garment dyed cotton shirt" class="showcase-img"
+                          width="70">
+                      </a>
+                    
+                      <div class="showcase-content">
+                    
+                        <a href="#">
+                          <h4 class="showcase-title">Pure Garment Dyed Cotton Shirt</h4>
+                        </a>
+                    
+                        <a href="#" class="showcase-category">Mens Fashion</a>
+                    
+                        <div class="price-box">
+                          <p class="price">$68.00</p>
+                          <del>$31.00</del>
+                        </div>
+                    
+                      </div>
+                    
+                    </div>
+  
+                  </div>
+
+              </div>
+
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Kitchen Finds</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/sports-1.jpg" alt="running & trekking shoes - white" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Running & Trekking Shoes - White</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Sports</a>
+            
+                      <div class="price-box">
+                        <p class="price">$49.00</p>
+                        <del>$15.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/sports-2.jpg" alt="trekking & running shoes - black" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Trekking & Running Shoes - black</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Sports</a>
+            
+                      <div class="price-box">
+                        <p class="price">$78.00</p>
+                        <del>$36.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/party-wear-1.jpg" alt="womens party wear shoes" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Womens Party Wear Shoes</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Party wear</a>
+            
+                      <div class="price-box">
+                        <p class="price">$94.00</p>
+                        <del>$42.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/sports-3.jpg" alt="sports claw women's shoes" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Sports Claw Women's Shoes</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Sports</a>
+            
+                      <div class="price-box">
+                        <p class="price">$54.00</p>
+                        <del>$65.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/sports-6.jpg" alt="air tekking shoes - white" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Air Trekking Shoes - white</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Sports</a>
+            
+                      <div class="price-box">
+                        <p class="price">$52.00</p>
+                        <del>$55.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/shoe-3.jpg" alt="Boot With Suede Detail" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Boot With Suede Detail</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">boots</a>
+            
+                      <div class="price-box">
+                        <p class="price">$20.00</p>
+                        <del>$30.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/shoe-1.jpg" alt="men's leather formal wear shoes" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Men's Leather Formal Wear shoes</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">formal</a>
+            
+                      <div class="price-box">
+                        <p class="price">$56.00</p>
+                        <del>$78.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/shoe-2.jpg" alt="casual men's brown shoes" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Casual Men's Brown shoes</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Casual</a>
+            
+                      <div class="price-box">
+                        <p class="price">$50.00</p>
+                        <del>$55.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+
+                <div class="showcase-container">
+            
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/sports-1.jpg" alt="running & trekking shoes - white" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Running & Trekking Shoes - White</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Sports</a>
+              
+                        <div class="price-box">
+                          <p class="price">$49.00</p>
+                          <del>$15.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/sports-2.jpg" alt="trekking & running shoes - black" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Trekking & Running Shoes - black</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Sports</a>
+              
+                        <div class="price-box">
+                          <p class="price">$78.00</p>
+                          <del>$36.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/party-wear-1.jpg" alt="womens party wear shoes" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Womens Party Wear Shoes</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Party wear</a>
+              
+                        <div class="price-box">
+                          <p class="price">$94.00</p>
+                          <del>$42.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/sports-3.jpg" alt="sports claw women's shoes" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Sports Claw Women's Shoes</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Sports</a>
+              
+                        <div class="price-box">
+                          <p class="price">$54.00</p>
+                          <del>$65.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                </div>
+            
+              </div>
+            
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Baby Products</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Watches</a>
+            
+                      <div class="price-box">
+                        <p class="price">$50.00</p>
+                        <del>$34.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Jewellery</a>
+            
+                      <div class="price-box">
+                        <p class="price">$84.00</p>
+                        <del>$30.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Perfume</a>
+            
+                      <div class="price-box">
+                        <p class="price">$42.00</p>
+                        <del>$10.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Belt</a>
+            
+                      <div class="price-box">
+                        <p class="price">$24.00</p>
+                        <del>$10.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">platinum Zircon Classic Ring</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">jewellery</a>
+            
+                      <div class="price-box">
+                        <p class="price">$62.00</p>
+                        <del>$65.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Smart watche Vital Plus</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Watches</a>
+            
+                      <div class="price-box">
+                        <p class="price">$56.00</p>
+                        <del>$78.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">shampoo conditioner packs</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">cosmetics</a>
+            
+                      <div class="price-box">
+                        <p class="price">$20.00</p>
+                        <del>$30.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Rose Gold Peacock Earrings</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">jewellery</a>
+            
+                      <div class="price-box">
+                        <p class="price">$20.00</p>
+                        <del>$30.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+
+                <div class="showcase-container">
+            
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+            
+              </div>
+            
+            </div>
+
+
+
+            <div class="product-showcase">
+            
+                <h2 class="title">Sporting Goods</h2>
+              
+                <div class="showcase-wrapper  has-scrollbar">
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">platinum Zircon Classic Ring</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$62.00</p>
+                          <del>$65.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Smart watche Vital Plus</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$56.00</p>
+                          <del>$78.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">shampoo conditioner packs</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">cosmetics</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Rose Gold Peacock Earrings</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+            </div>
+
+            <div class="product-showcase">
+            
+                <h2 class="title">Home Funiture</h2>
+              
+                <div class="showcase-wrapper  has-scrollbar">
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">platinum Zircon Classic Ring</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$62.00</p>
+                          <del>$65.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Smart watche Vital Plus</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$56.00</p>
+                          <del>$78.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">shampoo conditioner packs</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">cosmetics</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Rose Gold Peacock Earrings</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+            </div>
+
+            <div class="product-showcase">
+            
+                <h2 class="title">Networking</h2>
+              
+                <div class="showcase-wrapper  has-scrollbar">
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">platinum Zircon Classic Ring</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$62.00</p>
+                          <del>$65.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Smart watche Vital Plus</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$56.00</p>
+                          <del>$78.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">shampoo conditioner packs</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">cosmetics</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Rose Gold Peacock Earrings</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+            </div>
+
+            
+
+            <div class="product-showcase">
+            
+                <h2 class="title">Building Materials</h2>
+              
+                <div class="showcase-wrapper  has-scrollbar">
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">platinum Zircon Classic Ring</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$62.00</p>
+                          <del>$65.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Smart watche Vital Plus</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$56.00</p>
+                          <del>$78.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">shampoo conditioner packs</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">cosmetics</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Rose Gold Peacock Earrings</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+            </div>
+
+            <div class="product-showcase">
+            
+                <h2 class="title">Home Accessories</h2>
+              
+                <div class="showcase-wrapper  has-scrollbar">
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">platinum Zircon Classic Ring</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$62.00</p>
+                          <del>$65.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Smart watche Vital Plus</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$56.00</p>
+                          <del>$78.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">shampoo conditioner packs</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">cosmetics</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Rose Gold Peacock Earrings</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+            </div>
+
+            <div class="product-showcase">
+            
+                <h2 class="title">Stationaries</h2>
+              
+                <div class="showcase-wrapper  has-scrollbar">
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">platinum Zircon Classic Ring</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$62.00</p>
+                          <del>$65.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Smart watche Vital Plus</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$56.00</p>
+                          <del>$78.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">shampoo conditioner packs</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">cosmetics</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Rose Gold Peacock Earrings</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+            </div>
+
+
+
+            <div class="product-showcase">
+            
+                <h2 class="title">Books</h2>
+              
+                <div class="showcase-wrapper  has-scrollbar">
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">platinum Zircon Classic Ring</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$62.00</p>
+                          <del>$65.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Smart watche Vital Plus</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$56.00</p>
+                          <del>$78.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">shampoo conditioner packs</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">cosmetics</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Rose Gold Peacock Earrings</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+            </div>
+
+            <div class="product-showcase">
+            
+                <h2 class="title">Automobile</h2>
+              
+                <div class="showcase-wrapper  has-scrollbar">
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">platinum Zircon Classic Ring</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$62.00</p>
+                          <del>$65.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Smart watche Vital Plus</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$56.00</p>
+                          <del>$78.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">shampoo conditioner packs</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">cosmetics</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Rose Gold Peacock Earrings</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$20.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+
+                  <div class="showcase-container">
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Pocket Watch Leather Pouch</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Watches</a>
+              
+                        <div class="price-box">
+                          <p class="price">$50.00</p>
+                          <del>$34.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Silver Deer Heart Necklace</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Jewellery</a>
+              
+                        <div class="price-box">
+                          <p class="price">$84.00</p>
+                          <del>$30.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Perfume</a>
+              
+                        <div class="price-box">
+                          <p class="price">$42.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="showcase">
+              
+                      <a href="#" class="showcase-img-box">
+                        <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                          width="70">
+                      </a>
+              
+                      <div class="showcase-content">
+              
+                        <a href="#">
+                          <h4 class="showcase-title">Men's Leather Reversible Belt</h4>
+                        </a>
+              
+                        <a href="#" class="showcase-category">Belt</a>
+              
+                        <div class="price-box">
+                          <p class="price">$24.00</p>
+                          <del>$10.00</del>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+            </div>
+
+
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT GRID
+          -->
+
+          <div class="product-main" id="new-products">
+
+            <h2 class="title">For You</h2>
+
+            <div class="product-grid">
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+
+                  <a href="#"><img src="./assets/images/products/jacket-3.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img default">
+                  <img src="./assets/images/products/jacket-4.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img hover"></a>
+
+                  <p class="showcase-badge">15%</p>
+
+                  <div class="showcase-actions">
+
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button></a>
+
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button></a>
+
+                    <a href="#"><button class="btn-action">
+                        <ion-icon name="share"></ion-icon>
+                    </button></a>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                 <a href="#" class="showcase-category">Baby Product</a>
+
+                  <a href="#">
+                    <h3 class="showcase-title">Mens Winter Leathers Jackets</h3>
+                  </a>
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$48.00</p>
+                    <del>$75.00</del>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <a href="#"><img src="./assets/images/products/shirt-1.jpg" alt="Pure Garment Dyed Cotton Shirt" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/shirt-2.jpg" alt="Pure Garment Dyed Cotton Shirt" class="product-img hover"
+                    width="300"></a>
+              
+                  <p class="showcase-badge angle black">sale</p>
+              
+                  <div class="showcase-actions">
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button></a>
+              
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button></a>
+
+                    <a href="#"><button class="btn-action">
+                        <ion-icon name="share"></ion-icon>
+                    </button></a>
+
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Computing</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Pure Garment Dyed Cotton Shirt</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$45.00</p>
+                    <del>$56.00</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <a href="#"><img src="./assets/images/products/jacket-5.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/jacket-6.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img hover"
+                    width="300"></a>
+              
+                  <div class="showcase-actions">
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button></a>
+              
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button></a>
+
+                    <a href="#"><button class="btn-action">
+                        <ion-icon name="share"></ion-icon>
+                    </button></a>
+
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Home Funiture</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">MEN Yarn Fleece Full-Zip Jacket</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$58.00</p>
+                    <del>$65.00</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <a href="#"><img src="./assets/images/products/clothes-3.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/clothes-4.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img hover"
+                    width="300"></a>
+              
+                  <p class="showcase-badge angle pink">new</p>
+              
+                  <div class="showcase-actions">
+                    
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button></a>
+              
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button></a>
+
+                    <a href="#"><button class="btn-action">
+                        <ion-icon name="share"></ion-icon>
+                    </button></a>
+
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Sports</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Black Floral Wrap Midi Skirt</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$25.00</p>
+                    <del>$35.00</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+
+
+              <div class="showcase">
+                
+                    <div class="showcase-banner">
+                    <a href="#"><img src="./assets/images/products/shoe-2.jpg" alt="Casual Men's Brown shoes" class="product-img default"
+                        width="300">
+                    <img src="./assets/images/products/shoe-2_1.jpg" alt="Casual Men's Brown shoes" class="product-img hover"
+                        width="300"></a>
+                
+                    <div class="showcase-actions">
+                        <a href="#"><button class="btn-action">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        </button></a>
+                
+                        <a href="#"><button class="btn-action">
+                        <ion-icon name="bag-add-outline"></ion-icon>
+                        </button></a>
+
+                        <a href="#"><button class="btn-action">
+                            <ion-icon name="share"></ion-icon>
+                        </button></a>
+
+                    </div>
+                    </div>
+                
+                    <div class="showcase-content">
+                    <a href="#" class="showcase-category">Sports</a>
+                
+                    <h3>
+                        <a href="#" class="showcase-title">Casual Men's Brown shoes</a>
+                    </h3>
+                
+                    <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                
+                    <div class="price-box">
+                        <p class="price">$99.00</p>
+                        <del>$105.00</del>
+                    </div>
+                
+                    </div>
+                
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <a href="#"><img src="./assets/images/products/watch-3.jpg" alt="Pocket Watch Leather Pouch" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/watch-4.jpg" alt="Pocket Watch Leather Pouch" class="product-img hover"
+                    width="300"></a>
+              
+                  <p class="showcase-badge angle black">sale</p>
+              
+                  <div class="showcase-actions">
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button></a>
+              
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button></a>
+
+                    <a href="#"><button class="btn-action">
+                        <ion-icon name="share"></ion-icon>
+                    </button></a>
+
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Computing</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Pocket Watch Leather Pouch</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$150.00</p>
+                    <del>$170.00</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <a href="#"><img src="./assets/images/products/watch-1.jpg" alt="Smart watche Vital Plus" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/watch-2.jpg" alt="Smart watche Vital Plus" class="product-img hover" width="300"></a>
+              
+                  <div class="showcase-actions">
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button></a>
+              
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button></a>
+
+                    <a href="#"><button class="btn-action">
+                        <ion-icon name="share"></ion-icon>
+                    </button></a>
+
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Baby Product</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Smart watche Vital Plus</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$100.00</p>
+                    <del>$120.00</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <a href="#"><img src="./assets/images/products/party-wear-1.jpg" alt="Womens Party Wear Shoes" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/party-wear-2.jpg" alt="Womens Party Wear Shoes" class="product-img hover"
+                    width="300"></a>
+              
+                  <p class="showcase-badge angle black">sale</p>
+              
+                  <div class="showcase-actions">
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button></a>
+              
+                    <a href="#"><button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button></a>
+
+                    <a href="#"><button class="btn-action">
+                        <ion-icon name="share"></ion-icon>
+                    </button></a>
+
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Home Funiture</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Womens Party Wear Shoes</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$25.00</p>
+                    <del>$30.00</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">POPULAR CATEGORIES</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">FASHION</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">ELECTRONICS</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">COSMETICS</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">WATCHES</a>
+          </li>
+
+        </ul>
+
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#special-order" class="footer-nav-link">SPECIAL ORDERS</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#new-products" class="footer-nav-link">NEW PRODUCTS</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#best-sales" class="footer-nav-link">BEST SALES</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#best-sales" class="footer-nav-link">COOKIES</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">OUR COMPANY</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">HELP CENTER</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">REPORT A PRODUCT</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">TERMS & CONDITIONS </a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">BECOME A SELLER</a>
+          </li>
+        
+        
+        </ul>
+
+        
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </div>
+            <a href="tel:(+234)-706-067-3926" class="footer-nav-link">CHAT WITH US</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+            <a href="tel:(+234)-706-067-3926" class="footer-nav-link">(+234)-706-067-3926</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <a href="mailto:mekwunye2345@gmail.com" class="footer-nav-link">mekwunye2345@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <p class="copyright">
+          Copyright &copy; <a href="index.html">Flurva</a> 2025. All Rights Reserved. By Mekwunye Wisdom
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
